@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Beat Hopper</title>
+	<style type="text/css">
+		html, body {
+			height: 100%;
+			overflow: hidden;
+			background-color: #e5ddac;
+		}
+		#gameFrame {
+			width : 500px;
+			height : 480px;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			margin-left: -250px;
+			margin-top: -240px;
+			border: 3px red solid;
+		}
+	</style>
+</head>
+<body>
+	<div id="gameFrame">
+		<!-- <embed src="https://dl.dropboxusercontent.com/u/40680146/haxe/beat/BeatHopper.swf" width="500" height="480"> -->
+		<object width="500" height="480">
+			<param name="movie" value="BeatHopper.swf">
+			<embed src="BeatHopper.swf" width="500" height="480">
+			</embed>
+		</object>			
+	</div>
+	<div align="center"><p>If all you see is a weird flower thing, just refresh. If input is not detected (you can't move), click the game.<p/>
+	<p>Controls: 1-4 move, R restarts, Escape pauses. Arrows work but are not recommended.</p></div>
+</body>
+</html>
